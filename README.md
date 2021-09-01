@@ -32,5 +32,5 @@ terraform destroy<br />
 ## For reference:<br />
 Cluster using container Instances (EC2 launch type)<br />
 SSH connection allows you to do troubleshooting or update within EC2 instances<br />
-In this repository, each file is distributed to better defining what we want to build (or change)<br />
+In this repository, distributed of files to better defining what we want to build (or change)<br />
 The file variables allow changing the capacity of the desired configuration for the infrastracture<br />
