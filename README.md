@@ -1,4 +1,4 @@
-# Provisioning VPC, ECS and ALB using Terraform<br />
+# Provisioning ECS, VPC,  and ALB using Terraform<br />
 ![](Diagram_Terraform_ECS.JPG)
 <br />
 This is an example that implies that you have already an AWS account and Terraform CLI installed in your Linux or Windows system.<br />
