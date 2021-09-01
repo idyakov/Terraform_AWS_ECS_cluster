@@ -14,8 +14,8 @@ It consit of:<br />
 7. Autoscaling group that automate availability of our EC2 instances<br />
 8. The subnets distributing into two divided AZ<br />
 <br />
-In this repository, each file is distributed to better defining what we want to build (or change)<br />
-The file variables allow changing the capacity of the desired configuration for the infrastracture<br />
+In this repository, each file is distributed to better defining what we want to build (or change).<br />
+The file variables allow changing the capacity of the desired configuration for the infrastracture.<br />
 
 ## How to create the infrastructure?<br />
 git clone github.com/idyakov/Terraform-AWS-ECS-cluster<br />
@@ -24,7 +24,7 @@ terraform init<br />
 terraform plan<br />
 terrafrom apply<br />
 />
-Note: it can take about 5 minutes to provision all resources<br />
+Note: it can take about 5 minutes to provision all resources.<br />
 
 ## How to delete the infrastructure?<br />
 terraform destroy<br />
