@@ -120,13 +120,14 @@ resource "aws_alb_listener" "ecs_main" {
 }
 
 resource "aws_ecs_cluster" "main_cluster" {
-  name = "main_cluster"
+  name = var.aws_ecs_cluster
 }
 
 resource "aws_launch_configuration" "ecs_main" {
   image_id        = data.aws_ami.latest_amazon_linux.id
   instance_type   = var.instance_type
   security_groups = [aws_security_group.main_security_gr_ecs.id]
+  key_name        = var.key_name
   user_data       = templatefile("set_name_cl.sh", { cluster_name = aws_ecs_cluster.main_cluster.name })
   # Here we are attaching the IAM instance profile, which we created in the step 4.
   iam_instance_profile = aws_iam_instance_profile.ec2_ecs_role.name #Assigning the IAM role, to an EC2 instance on the fly
