@@ -1,0 +1,12 @@
+[
+  {
+    "name": "${name}",
+    "image": "${image}",
+    "memory": ${memory},
+    "portMappings": [
+      {
+        "containerPort": ${containerPort}
+      }
+    ]
+  }
+]
