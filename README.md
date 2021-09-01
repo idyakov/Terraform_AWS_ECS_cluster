@@ -1,7 +1,7 @@
 # Provisioning VPC, ECS and ALB using Terraform
 ![](Diagram_Terraform_ECS.JPG)
 <br />
-This is an example that implies that you have already an AWS account and Terraform CLI installed in your Linux or Windows system/>
+This is an example that implies that you have already an AWS account and Terraform CLI installed in your Linux or Windows system.<br />
 The users can deploy their own app/website via this infrastructure (variable.tf allows to change name of the Image. In this example used by AWS Elastic Container Repository.<br />
 <br />
 It consit of:<br />
