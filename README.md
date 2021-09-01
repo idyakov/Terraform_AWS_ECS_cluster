@@ -18,7 +18,7 @@ In this repository, each file is distributed to better defining what we want to 
 The file variables allow changing the capacity of the desired configuration for the infrastracture.<br />
 
 ## How to create the infrastructure?<br />
-git clone github.com/idyakov/Terraform-AWS-ECS-cluster<br />
+git clone https://github.com/idyakov/Terraform_AWS_ECS_cluster<br />
 cd Terraform-AWS-ECS-cluster<br />
 terraform init<br />
 terraform plan<br />
