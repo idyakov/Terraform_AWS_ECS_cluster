@@ -20,7 +20,7 @@ The file variables allow changing the capacity of the desired configuration for 
 ## Step by step provisioning  deploy the infrastructure from Terraform code in AWS cloud?<br />
 git clone https://github.com/idyakov/Terraform_AWS_ECS_cluster<br />
 cd Terraform-AWS-ECS-cluster<br />
-Before the start of the deployment, please add to the console your Credentials of AWS an account!=y<br />
+  *Before the start of the deployment, please add to the console your Credentials of AWS an account!=<br />
 (Environment Variables - Windows OS)<br />
 $env:AWS_ACCESS_KEY_ID=<br />
 $env:AWS_SECRET_ACCESS_KEY=<br />
