@@ -22,14 +22,14 @@ git clone https://github.com/idyakov/Terraform_AWS_ECS_cluster<br />
 cd Terraform-AWS-ECS-cluster<br />
 =Before the start of the deployment, please add to the console your Credentials of AWS an account!=y<br />
 (Environment Variables - Windows OS)y<br />
-$env:AWS_ACCESS_KEY_ID=y<br />
-$env:AWS_SECRET_ACCESS_KEY=y<br />
-$env:AWS_DEFAILT_REGION=y<br />
+$env:AWS_ACCESS_KEY_ID=<br />
+$env:AWS_SECRET_ACCESS_KEY=<br />
+$env:AWS_DEFAILT_REGION=<br />
 
 (Environment Variables - Linux OS)y<br />
-AWS_ACCESS_KEY_ID=y<br />
-AWS_SECRET_ACCESS_KEY=y<br />
-AWS_DEFAILT_REGION=y<br />
+AWS_ACCESS_KEY_ID=<br />
+AWS_SECRET_ACCESS_KEY=<br />
+AWS_DEFAILT_REGION=<br />
 
 terraform init<br />
 terraform plan<br />
