@@ -30,11 +30,12 @@ cd Terraform-AWS-ECS-cluster<br />
  AWS_ACCESS_KEY_ID=<br />
  AWS_SECRET_ACCESS_KEY=<br />
  AWS_DEFAILT_REGION=<br />
- *Please notice the ssh key should be generated in AWS cloud in advance and only that you can type the name of the key during provisioning.
- ## (Environment Variables - MAC OS)<br />
+ ## (Environment Variables - Mac OS)<br />
  export AWS_ACCESS_KEY_ID=
  export AWS_SECRET_ACCESS_KEY=                                                    
  export AWS_DEFAILT_REGION=
+
+*Please notice the ssh key should be generated in AWS cloud in advance and only that you can type the name of the key during provisioning.
 
 terraform init<br />
 terraform plan<br />
