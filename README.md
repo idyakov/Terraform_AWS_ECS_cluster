@@ -20,6 +20,17 @@ The file variables allow changing the capacity of the desired configuration for 
 ## How to create the infrastructure?<br />
 git clone https://github.com/idyakov/Terraform_AWS_ECS_cluster<br />
 cd Terraform-AWS-ECS-cluster<br />
+=Before the start of the deployment, please add to the console your Credentials of AWS an account!=
+(Environment Variables - Windows OS)
+$env:AWS_ACCESS_KEY_ID=
+$env:AWS_SECRET_ACCESS_KEY=
+$env:AWS_DEFAILT_REGION=
+
+(Environment Variables - Linux OS)
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAILT_REGION=
+
 terraform init<br />
 terraform plan<br />
 terrafrom apply<br />
