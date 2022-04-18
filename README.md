@@ -17,7 +17,7 @@ It consit of:<br />
 In this repository, each file is distributed to better defining what we want to build (or change).<br />
 The file variables allow changing the capacity of the desired configuration for the infrastracture.<br />
 
-## How to deploy the infrastructure from Terraform code in AWS cloud?<br />
+## Step by step provisioning  deploy the infrastructure from Terraform code in AWS cloud?<br />
 git clone https://github.com/idyakov/Terraform_AWS_ECS_cluster<br />
 cd Terraform-AWS-ECS-cluster<br />
 Before the start of the deployment, please add to the console your Credentials of AWS an account!=y<br />
