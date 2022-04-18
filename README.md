@@ -37,6 +37,8 @@ terrafrom apply<br />
 <br />
 Note: it can take about 4-5 minutes to provision all resources.<br />
 
+After deployment you will see the link of the website, now you can click on the link and you will see the Test page <br />
+
 ## How to delete the infrastructure?<br />
 terraform destroy<br />
 
