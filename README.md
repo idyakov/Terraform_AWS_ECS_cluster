@@ -30,6 +30,7 @@ $env:AWS_DEFAILT_REGION=<br />
 AWS_ACCESS_KEY_ID=<br />
 AWS_SECRET_ACCESS_KEY=<br />
 AWS_DEFAILT_REGION=<br />
+ *Please notice the ssh key should be generated in AWS cloud in advance and only that you can type the name of the key during provisioning.
 
 terraform init<br />
 terraform plan<br />
